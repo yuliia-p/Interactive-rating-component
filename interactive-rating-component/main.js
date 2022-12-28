@@ -15,14 +15,17 @@ buttonsEl.forEach(el => {
   el.addEventListener('click', e => {
     removeSelectedClasses();
     selected = e.target.textContent;
+    console.log(e.target.textContent);
     e.target.classList.add('selected');
   });
 });
+
 function removeSelectedClasses() {
   buttonsEl.forEach(btn => {
     btn.classList.remove('selected');
   });
 }
+
 submitButton.addEventListener('click', e => {
   if (selected === '') {
     addButtonErrors();
@@ -36,12 +39,14 @@ submitButton.addEventListener('click', e => {
   view1.classList.add('display-none');
   view2.classList.remove('display-none');
 });
+
 function addButtonErrors() {
   error.classList.remove('display-none');
   buttonsEl.forEach(btn => {
     btn.classList.add('error');
   });
 }
+
 function removeButtonErrors() {
   error.classList.add('display-none');
   buttonsEl.forEach(btn => {
