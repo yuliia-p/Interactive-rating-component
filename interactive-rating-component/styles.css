@@ -87,6 +87,45 @@ p.msg {
   transition: all 500ms;
 }
 
+.buttons-holder button:hover {
+  background: #4e5f73;
+}
+
+.buttons-holder button.selected {
+  background: #fb7413;
+  color: white;
+}
+
+.submit {
+  font-family: Overpass, sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  background: #fb7413;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.submit:hover {
+  background: #a64703;
+}
+
+p.error-msg {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  color: red;
+}
+
 /* @media screen and (min-width: 1440px) {
 
 } */
