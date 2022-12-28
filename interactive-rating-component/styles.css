@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Overpass, sans-serif;
+  background-color: hsl(216deg 12% 8%);
+  color: hsl(0deg 0% 100%);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #252d37;
+  border-radius: 30px;
+  padding: 35px;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  background: #3a4655;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+p {
+  color: #959eac;
+}
+
+.container .div-body {
+  margin-top: 15px;
+}
+
+.div-body img {
+  display: block;
+  margin: auto;
+}
+
+.div-body h1 {
+  margin-top: 2rem;
+}
+
+.div-body p {
+  color: #959eac;
+}
+
+p.msg {
+  margin-bottom: 20px;
+}
+
+.display-none {
+  display: none;
+}
+
+.buttons-holder {
+  display: box;
+  display: flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.buttons-holder button {
+  background: #3a4655;
+  color: #959eac;
+  font-size: 1.2rem;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+/* @media screen and (min-width: 1440px) {
+
+} */
