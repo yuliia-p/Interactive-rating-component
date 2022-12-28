@@ -126,6 +126,22 @@ p.error-msg {
   color: red;
 }
 
+#view-2 {
+  text-align: center;
+}
+
+.selection-msg {
+  padding: 10px 15px;
+  color: #fb7413;
+  background: #3a4655;
+  display: inline-box;
+  display: inline-flexbox;
+  display: inline-flex;
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  border-radius: 50px;
+}
+
 /* @media screen and (min-width: 1440px) {
 
 } */
