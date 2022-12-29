@@ -1,13 +1,9 @@
-console.log('Hello, Code Solutions!');
-
 const buttonsEl = document.querySelectorAll('button');
 const submitButton = document.getElementById('submit');
 const error = document.getElementById('error-msg');
 const view1 = document.getElementById('view-1');
 const view2 = document.getElementById('view-2');
-
 const selectionMsg = document.getElementById('selection-msg');
-
 let selected = '';
 
 buttonsEl.forEach(el => {
