@@ -1,4 +1,4 @@
-# Interactive rating component solution
+# Interactive rating component [solution](https://yuliia-p.github.io/interactive-rating-component/)
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
@@ -15,7 +15,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ![](images/rating-component-desktop.png)
 ![](images/rating-component-desktop-1.png)
 
-
+### Links
+- Live Site [URL](https://yuliia-p.github.io/interactive-rating-component/)
 
 ## Author
 
