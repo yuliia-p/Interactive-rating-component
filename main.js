@@ -10,7 +10,6 @@ buttonsEl.forEach(el => {
   el.addEventListener('click', e => {
     removeSelectedClasses();
     selected = e.target.textContent;
-    console.log(e.target.textContent);
     e.target.classList.add('selected');
   });
 });
